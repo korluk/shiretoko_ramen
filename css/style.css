@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
+/*copyright Łukasz Korzeniowski*/
 * {
   margin: 0;
   padding: 0;
@@ -47,7 +48,8 @@ nav a:hover {
 
 header {
   width: inherit;
-  background-image: url("/img/header.jpg");
+  background-image: url("../img/header.jpg");
+  background-image: url("../img/header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
@@ -142,6 +144,11 @@ article {
   margin-bottom: 20px;
 }
 
+.infomenu {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
 .hours {
   text-align: center;
   background-color: #2f304e;
@@ -189,7 +196,7 @@ article {
 
 .line1 {
   width: 90vw;
-  background-image: url("/img/line1.jpg");
+  background-image: url("../img/line1.jpg");
   background-size: cover;
   height: 50vh;
 }
@@ -207,7 +214,12 @@ article {
 
 .line2 {
   width: 90vw;
-  background-image: url("/img/line2.jpg");
+  background-image: url("../img/line2.jpg");
   background-size: cover;
   height: 50vh;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #fff;
 }
